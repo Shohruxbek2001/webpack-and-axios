@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Поиск</title>
+</head>
+<body class="bg">
+    <div class="container">
+        <div class="search-elements">
+            <div class="search-items">
+                <div class="search-text">
+                    <p>Запрос</p>
+                </div>
+                <div class="search-input">
+                    <input id="queryInput" type="text" placeholder="Введите что ищите...">
+                </div>
+            </div>
+            <div class="search-items">
+                <div class="search-text">
+                    <p>Регион</p>
+                </div>
+                <div class="search-input">
+                    <select id="countr">
+
+                    </select>
+                </div>
+            </div>
+            <div class="search-items">
+                <div class="search-button">
+                    <button id="searchBtn">Поиск</button>
+                </div>
+            </div>
+        </div>
+        <div class="list">
+            <div class="result-text">
+                <p>Результаты поиска: <span id="requestText"></span></p>
+            </div>
+            <ol id="brandsList">
+            </ol>
+        </div>
+    </div>
+    <script src="./dist/index_bundle.js">        
+    </script>
+</body>
+</html>

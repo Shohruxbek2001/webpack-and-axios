@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+*   {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.bg {
+    background-color: #fafafa;
+}
+.container  {
+    margin: 5% 15%;
+}
+.search-elements    {
+    background-color: #ffffff;
+    width: 40vw;
+    padding: 7vh;
+    border-radius: 1.2vh;
+}
+.search-items   {
+    display: block;
+    margin: 6px 0;
+}
+.search-text    {
+    width: 35%;
+    display: inline-block;
+    white-space: nowrap;
+}
+.search-input   {
+    width: auto;
+    display: inline-block;
+}
+.search-input > input {
+    border: none;
+    background-color: #ffffff;
+    border-style: none;
+    width: 100%;
+    height: 5vh;    
+}
+.search-input > input:focus {
+    border: none;
+    border-bottom: #000000;    
+}
+.search-button  {
+    margin-top: 5vh;
+    position: relative;
+    left: 50%;
+    transform: translate(-25%, 0);
+}
+.search-button  >   button  {
+    padding: 6px 0;
+    text-align: center;
+    width: 35vh;
+    border: none;
+    border-radius: 5vh;
+    background-color: #000000;
+    color: #ffffff;
+}
+.active{
+    color: green;
+}
+.list   {
+    margin: 7vh 0vh;
+    padding: 7vh 10vh;
+    width: 40vw;
+    border-radius: 1.2vh;
+    background-color: #ffffff;
+}
+.result-text > p {
+    margin-bottom: 5vh;
+    font-size: 1.3em;
+}
+.list   >   ol   {
+    margin-left: 5vh;
+}
